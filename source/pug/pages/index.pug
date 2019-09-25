@@ -1,0 +1,49 @@
+doctype html
+html(lang="ru-Ru")
+  head 
+    meta(charset="UTF-8")
+    title highweb
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="css/style.min.css")
+  body
+    main
+      div.container
+        section.logo
+          a(href="index.html").logo__link highweb
+          ul.social
+            li.social__list
+              a(href="#").social__link 
+                img(src="img/fb2.svg")
+                span.visually-hidden фейсбук
+            li.social__list
+              a(href="#").social__link 
+                img(src="img/wp2.svg")
+                span.visually-hidden вотсап
+            li.social__list
+              a(href="#").social__link 
+                img(src="img/vk2.svg")
+                span.visually-hidden вконтакте
+        section.info
+          h2.info__title Наш сайт находится в разработке
+          p.info__text А это значит, что здесь скоро появится что-то очень интересное :)
+          div.info__img
+            img(src="img/1.svg" alt="шестеренки").info__img1
+            img(src="img/2.svg" alt="шестеренки").info__img2
+            img(src="img/3.svg" alt="шестеренки").info__img3
+          div.info__open
+            p.info__text Открытие через:
+            div(id="countdown").countdown
+              div.countdown-number
+                span.days.countdown-time
+                span.countdown-text Days
+              div.countdown-number
+                span.hours.countdown-time
+                span.countdown-text Hours
+              div.countdown-number
+                span.minutes.countdown-time
+                span.countdown-text Minutes
+              div.countdown-number
+                span.seconds.countdown-time
+                span.countdown-text Seconds
+
+      script(src="js/script.js")

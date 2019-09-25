@@ -1,0 +1,39 @@
+.countdown {
+  font-family: sans-serif;
+  color: #000000;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+
+.countdown-number {
+  padding: 10px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #666666;
+  display: inline-block;
+}
+
+.countdown-time {
+  padding: 5px;
+  border-radius: 3px;
+  background: #ffffff;
+  display: inline-block;
+}
+
+.countdown-text {
+  display: block;
+  padding-top: 5px;
+  font-size: 12px;
+}
+
+@media (min-width: @size-tablet) {
+  .countdown-time {
+    padding: 15px;
+  }
+
+  .countdown-text {
+    font-size: 16px;
+  }
+}

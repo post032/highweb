@@ -1,0 +1,103 @@
+
+section.block-2.container
+    section(id="all").block-2__nead
+      h2.block-2__title Акция началась!
+      p.block-2__text Количество товара ограничено, успейте заказать нейропорфюм со скидкой 53%;
+    section.block2__content
+      div.block2__element.block2__love
+        h3.block-2__name.block-2__name-love Love
+        span.block-2__name Любовь
+        img(src="img/love.jpg" alt="нейродухи love").block-2__img
+        div(id="love")
+          input(id="star-4l" type="radio" name="reviewStarslove")
+          label(title="gorgeous" for="star-4l")
+          input(id="star-3l" type="radio" name="reviewStarslove" checked)
+          label(title="good" for="star-3l")
+          input(id="star-2l" type="radio" name="reviewStarslove")
+          label(title="regular" for="star-2l")
+          input(id="star-1l" type="radio" name="reviewStarslove")
+          label(title="poor" for="star-1l")
+          input(id="star-0l" type="radio" name="reviewStarslove")
+          label(title="bad" for="star-0l")
+        p.block-2__rest Осталось 12 шт
+        a(href="#love-link").block-2__detail.block-2__detail-love Подробнее
+      div.block2__element.block2__youth
+        h3.block-2__name.block-2__name-youth Youth
+        span.block-2__name Молодость
+        img(src="img/youth.jpg" alt="нейродухи youth").block-2__img
+        div(id="youth")
+          input(id="star-4y" type="radio" name="reviewStarsyouth")
+          label(title="gorgeous" for="star-4y")
+          input(id="star-3y" type="radio" name="reviewStarsyouth" checked)
+          label(title="good" for="star-3y")
+          input(id="star-2y" type="radio" name="reviewStarsyouth")
+          label(title="regular" for="star-2y")
+          input(id="star-1y" type="radio" name="reviewStarsyouth")
+          label(title="poor" for="star-1y")
+          input(id="star-0y" type="radio" name="reviewStarsyouth")
+          label(title="bad" for="star-0y")
+        span.block-2__stars
+        p.block-2__rest  Осталось 7 шт
+        a(href="#youth-link").block-2__detail.block-2__detail-youth Подробнее
+      div.block2__element.block2__harmony
+        h3.block-2__name.block-2__name-harmony Harmony
+        span.block-2__name Медитация
+        img(src="img/harmony.jpg" alt="нейродухи harmony").block-2__img
+        div(id="harmony")
+          input(id="star-4h" type="radio" name="reviewStarsharmony" checked)
+          label(title="gorgeous" for="star-4h")
+          input(id="star-3h" type="radio" name="reviewStarsharmony")
+          label(title="good" for="star-3h")
+          input(id="star-2h" type="radio" name="reviewStarsharmony")
+          label(title="regular" for="star-2h")
+          input(id="star-1h" type="radio" name="reviewStarsharmony")
+          label(title="poor" for="star-1h")
+          input(id="star-0h" type="radio" name="reviewStarsharmony")
+          label(title="bad" for="star-0h")
+        span.block-2__stars
+        p.block-2__rest  Осталось 4 шт
+        a(href="#harmony-link").block-2__detail.block-2__detail-harmony Подробнее
+      div.block2__element.block2__elegance
+        h3.block-2__name.block-2__name-elegance Elegance
+        span.block-2__name Стройность
+        img(src="img/elegance.jpg" alt="нейродухи elegance").block-2__img
+        div(id="elegance")
+          input(id="star-4e" type="radio" name="reviewStarselegance" checked)
+          label(title="gorgeous" for="star-4e")
+          input(id="star-3e" type="radio" name="reviewStarselegance")
+          label(title="good" for="star-3e")
+          input(id="star-2e" type="radio" name="reviewStarselegance")
+          label(title="regular" for="star-2e")
+          input(id="star-1e" type="radio" name="reviewStarselegance")
+          label(title="poor" for="star-1e")
+          input(id="star-0e" type="radio" name="reviewStarselegance")
+          label(title="bad" for="star-0e")
+        span.block-2__stars
+        p.block-2__rest  Осталось 17 шт
+        a(href="#elegance-link").block-2__detail.block-2__detail-elegance Подробнее
+      div.block2__element.block2__success
+        h3.block-2__name.block-2__name-success Success
+        span.block-2__name Успех
+        img(src="img/success.jpg" alt="нейродухи success").block-2__img
+        div(id="success")
+          input(id="star-4s" type="radio" name="reviewStarssuccess" checked)
+          label(title="gorgeous" for="star-4s")
+          input(id="star-3s" type="radio" name="reviewStarssuccess")
+          label(title="good" for="star-3s")
+          input(id="star-2s" type="radio" name="reviewStarssuccess")
+          label(title="regular" for="star-2s")
+          input(id="star-1s" type="radio" name="reviewStarssuccess")
+          label(title="poor" for="star-1s")
+          input(id="star-0s" type="radio" name="reviewStarssuccess")
+          label(title="bad" for="star-0s")
+        span.block-2__stars
+        p.block-2__rest  Осталось 11 шт
+        a(href="#success-link").block-2__detail.block-2__detail-success Подробнее
+section.block-2__order
+  div.container
+      h2.block-2__title Обратный звонок
+      p.block-2__text Оставьте заявку и наш специалист поможет вам с выбором 
+      form(action="send/send.php" method="post").block-2__form
+        input(type="text" name="name" placeholder="Введите Ф.И.О" required).block-2__input
+        input(type="tel" name="phone" placeholder="Введите телефон" required).block-2__input
+        input(type="submit" value="Оставить заявку").block-2__button

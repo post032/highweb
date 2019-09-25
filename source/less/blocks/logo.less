@@ -1,0 +1,28 @@
+.logo {
+  position: relative;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+@media (min-width: @size-tablet) {
+  .logo {
+    flex-direction: row;
+  }
+
+  .logo__link {
+    font-size: 36px;
+    line-height: 45px;
+  }
+}
